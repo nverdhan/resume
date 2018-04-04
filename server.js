@@ -14,7 +14,7 @@ app.get('/', function (req, res) {
   res.sendFile('index.html', {root: __dirname});
 });
 
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 3001;
 app.listen(port, function () {
   console.log(`Naisheel's resume app listening on port ${port}`);
 });
