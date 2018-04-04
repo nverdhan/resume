@@ -1,0 +1,29 @@
+{
+  "name": "naisheel-resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "PORT=3000 node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/naisheel_verdhan/codalyze-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://nverdhan.com",
+  "dependencies": {
+    "express": "^4.16.1"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "./index.html",
+      "./public/js/app.js"
+    ]
+  },
+  "devDependencies": {
+    "purify-css": "^1.2.5"
+  }
+}
